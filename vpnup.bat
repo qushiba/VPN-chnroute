@@ -1195,6 +1195,7 @@ route add 61.134.96.0 mask 255.255.224.0 %gw% metric 25
 route add 61.134.128.0 mask 255.255.192.0 %gw% metric 25
 route add 61.134.192.0 mask 255.255.192.0 %gw% metric 25
 route add 61.135.0.0 mask 255.255.0.0 %gw% metric 25
+route add 61.135.169.125 mask 255.255.0.0 %gw% metric 25
 route add 61.136.0.0 mask 255.255.192.0 %gw% metric 25
 route add 61.136.64.0 mask 255.255.192.0 %gw% metric 25
 route add 61.136.128.0 mask 255.255.128.0 %gw% metric 25
@@ -1252,6 +1253,9 @@ route add 61.190.0.0 mask 255.254.0.0 %gw% metric 25
 route add 61.232.0.0 mask 255.252.0.0 %gw% metric 25
 route add 61.236.0.0 mask 255.254.0.0 %gw% metric 25
 route add 61.240.0.0 mask 255.252.0.0 %gw% metric 25
+route add 66.231.0.0 mask 255.252.0.0 %gw% metric 25
+route add 66.6.0.0 mask 255.252.0.0 %gw% metric 25
+route add 98.126.0.0 mask 255.252.0.0 %gw% metric 25
 route add 101.0.0.0 mask 255.255.252.0 %gw% metric 25
 route add 101.1.0.0 mask 255.255.252.0 %gw% metric 25
 route add 101.2.172.0 mask 255.255.252.0 %gw% metric 25
@@ -3361,6 +3365,7 @@ route add 171.112.0.0 mask 255.252.0.0 %gw% metric 25
 route add 171.116.0.0 mask 255.252.0.0 %gw% metric 25
 route add 171.120.0.0 mask 255.248.0.0 %gw% metric 25
 route add 171.208.0.0 mask 255.240.0.0 %gw% metric 25
+route add 174.35.56.156 mask 255.240.0.0 %gw% metric 25
 route add 175.0.0.0 mask 255.240.0.0 %gw% metric 25
 route add 175.16.0.0 mask 255.248.0.0 %gw% metric 25
 route add 175.24.0.0 mask 255.252.0.0 %gw% metric 25
@@ -3398,6 +3403,8 @@ route add 180.148.16.0 mask 255.255.248.0 %gw% metric 25
 route add 180.148.152.0 mask 255.255.248.0 %gw% metric 25
 route add 180.148.216.0 mask 255.255.248.0 %gw% metric 25
 route add 180.148.224.0 mask 255.255.224.0 %gw% metric 25
+route add 180.149.134.141 mask 255.255.224.0 %gw% metric 25
+route add 180.149.0.0 mask 255.255.224.0 %gw% metric 25
 route add 180.149.128.0 mask 255.255.224.0 %gw% metric 25
 route add 180.150.160.0 mask 255.255.224.0 %gw% metric 25
 route add 180.152.0.0 mask 255.248.0.0 %gw% metric 25
@@ -3463,6 +3470,8 @@ route add 183.172.0.0 mask 255.252.0.0 %gw% metric 25
 route add 183.182.0.0 mask 255.255.224.0 %gw% metric 25
 route add 183.184.0.0 mask 255.248.0.0 %gw% metric 25
 route add 183.192.0.0 mask 255.192.0.0 %gw% metric 25
+route add 192.30.0.0 mask 255.255.255.0 %gw% metric 25
+route add 192.30.252.128 mask 255.255.255.0 %gw% metric 25
 route add 192.124.154.0 mask 255.255.255.0 %gw% metric 25
 route add 192.188.170.0 mask 255.255.255.0 %gw% metric 25
 route add 202.0.100.0 mask 255.255.254.0 %gw% metric 25
@@ -5102,6 +5111,7 @@ route add 211.143.0.0 mask 255.255.0.0 %gw% metric 25
 route add 211.144.0.0 mask 255.254.0.0 %gw% metric 25
 route add 211.146.0.0 mask 255.255.0.0 %gw% metric 25
 route add 211.147.0.0 mask 255.255.0.0 %gw% metric 25
+route add 211.147.4.31 mask 255.255.0.0 %gw% metric 25
 route add 211.148.0.0 mask 255.252.0.0 %gw% metric 25
 route add 211.152.0.0 mask 255.254.0.0 %gw% metric 25
 route add 211.154.0.0 mask 255.255.0.0 %gw% metric 25
@@ -5151,6 +5161,7 @@ route add 218.78.0.0 mask 255.254.0.0 %gw% metric 25
 route add 218.80.0.0 mask 255.252.0.0 %gw% metric 25
 route add 218.84.0.0 mask 255.252.0.0 %gw% metric 25
 route add 218.88.0.0 mask 255.248.0.0 %gw% metric 25
+route add 218.93.127.76 mask 255.255.0.0 %gw% metric 25
 route add 218.96.0.0 mask 255.254.0.0 %gw% metric 25
 route add 218.98.0.0 mask 255.255.128.0 %gw% metric 25
 route add 218.98.128.0 mask 255.255.192.0 %gw% metric 25
@@ -5319,6 +5330,8 @@ route add 222.28.0.0 mask 255.252.0.0 %gw% metric 25
 route add 222.32.0.0 mask 255.224.0.0 %gw% metric 25
 route add 222.64.0.0 mask 255.248.0.0 %gw% metric 25
 route add 222.72.0.0 mask 255.254.0.0 %gw% metric 25
+route add 222.73.0.0 mask 255.254.0.0 %gw% metric 25
+route add 222.73.173.105 mask 255.254.0.0 %gw% metric 25
 route add 222.74.0.0 mask 255.255.0.0 %gw% metric 25
 route add 222.75.0.0 mask 255.255.0.0 %gw% metric 25
 route add 222.76.0.0 mask 255.252.0.0 %gw% metric 25
